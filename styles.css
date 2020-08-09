@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #0499ff;
+}
+.nav{
+  min-height:40px;
+  background-color: #000;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+}
+.menu{
+  display: flex;
+  flex-flow: row;
+  color: #fff;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-around;
+}
+.menu li{
+  padding: 4px;
+}
+.name{
+  display:block;
+  margin-right: auto;
+}
+header{
+  padding-top: 50px;
+  width: 100%;
+  height: 400px;
+  background-image: url('https://dummyimage.com/1000x400/000/3d393d&text=дороу');
+  background-size: cover;
+  text-align: center;
+
+}
+.short{
+  color: #ffffff;
+}
+header img {
+  border-radius: 100%;
+  border: 5px solid #00498a;
+  transition: all .2s;
+}
+header img:hover{
+  transform: scale(1.1);
+
+}
+.tag{
+  color: #ffffff;
+  background-color: #737373;
+  display: table;
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+.sub-title{
+  background-color: #96952a;
+}
+.content{
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  justify-content: space-around;
+
+}
+.card{
+  max-width: 500px;
+  padding: 50px;
+  margin: 30px;
+  border-bottom: 3px solid #00498a;
+  border-right: 3px solid #00498a;
+  border-radius: 10px;
+}
+footer{
+  min-height:40px;
+  background-color: #fff;
+  text-align: center;
+  padding: 50px;
+  color: #000;
+}
+.list{
+  list-style-type: none;
+  display:flex;
+  flex-flow: row;
+
+}
+.yellow{
+  background-color: #c2bf25;
+}
