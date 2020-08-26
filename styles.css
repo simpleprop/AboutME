@@ -109,7 +109,7 @@ footer img:hover{
   transform: scale(1.1);
 }
 .rotate{
-  animation: rotation 2s infinite linear;
+  animation: rotation 1.5s infinite linear;
 }
 @keyframes rotation {
   from {
